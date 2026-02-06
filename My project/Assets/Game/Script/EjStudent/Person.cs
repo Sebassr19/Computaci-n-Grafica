@@ -1,10 +1,12 @@
+using System;
 using UnityEngine;
 
+[System.Serializable]
 public class Person
 {
-    private string nameP;
-    private string mailP;
-    private int ageP;
+    public string nameP;
+    public string mailP;
+    public int ageP;
 
     public Person()
     {
